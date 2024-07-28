@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo</title>
+  <link rel="icon" type="image/x-icon" href="KaHaNi logo Final(1).jpg">
+  <!-- slider  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+  <!-- custom css files link -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<section class="our-menu" id="menu">
+    <h1 class="heading">OUR FOOD MENU</h1>
+    <center><h3 class="sub-heading"> ~ See what we offer ~ </h3></center>
+
+<div class="menu">
+  <div class="menu-item">
+    <div class="item-info">
+      <h2>ಉಪ್ಪಿಗಿಂತ ರುಚಿಬೇರೆಯಿಲ್ಲ</h2>
+      <p>Salted Fries</p>
+    </div>
+    <span class="price">Rs 90</span>
+  </div>
+  <div class="menu-item">
+    <div class="item-info">
+      <h2>Pyar ಪ್ರೇಮ kadhal</h2>
+      <p>Peri Peri Fries</p>
+    </div>
+    <span class="price">Rs 110</span>
+  </div>
+  <div class="menu-item">
+    <div class="item-info">
+      <h2>Item 3</h2>
+      <p>Description of item 3 goes here.</p>
+    </div>
+    <span class="price">$8.00</span>
+  </div>
+  <div class="menu-item">
+    <div class="item-info">
+      <h2>Pyar ಪ್ರೇಮ kadhal</h2>
+      <p>Peri Peri Fries</p>
+    </div>
+    <span class="price">Rs 110</span>
+  </div>
+</div>
+
+
+<!--   </div>
+  </div>
+</div> -->
+
+
+  </section>
+  
+
+
+<div><h1 align="center">HELLO</h1></div>
+
+<div id="hidden-content">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus aliquam arcu, vel euismod libero ornare et. Ut ac libero vel justo dictum tristique in eu ex. Donec nec diam nulla. Morbi ullamcorper arcu at quam sodales pharetra.</p>
+   <p>Etiam commodo sapien et tellus dapibus, id bibendum enim congue. Proin at sapien non ipsum feugiat pretium. Ut vestibulum mi eget commodo rhoncus. Sed id risus ac nisl fermentum hendrerit non ut quam.</p>
+</div>
+
+<a href="#" id="read-more">Read more</a>
+
+<a href="#" id="read-less">Read less</a>
+
+
+
+
+</body>
+
+  <script type="text/javascript">
+
+document.getElementById("read-morem").addEventListener("click", function() {
+   document.getElementById("hidden-content-middle").style.display = "block";
+   document.getElementById("read-morem").style.display = "none";
+   document.getElementById("read-lessm").style.display = "block";
+});
+
+document.getElementById("read-lessm").addEventListener("click", function() {
+   document.getElementById("hidden-content-middle").style.display = "none";
+   document.getElementById("read-morem").style.display = "block";
+   document.getElementById("read-lessm").style.display = "none";
+});
+
+
+  </script>
+</html>
